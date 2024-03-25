@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>LIB Insta - Contato</title>
+</head>
+<body>
+
+    <header>
+        <h1>LIB insta</h1>
+        <p>Ferramenta de Segurança da Informação</p>
+    </header>
+
+    <main>
+        <section class="contato-section">
+            <h2>Entre em Contato</h2>
+            <form id="contactForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="button" onclick="enviarMensagem()">Enviar</button>
+            </form>
+        </section>
+
+        <section class="contato-section">
+            <h2>Enviar mensagem</h2>
+            <div class="contato-botoes">
+                <a href="https://discordapp.com/users/1169336831310041209" target="_blank" rel="noopener noreferrer">
+                    <button class="discord">Contato no Discord</button>
+                </a>
+                <a href="https://github.com/lalaio1" target="_blank" rel="noopener noreferrer">
+                    <button class="github">GitHub</button>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LibInsta. Todos os direitos reservados.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

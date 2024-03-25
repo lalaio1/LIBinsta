@@ -1,0 +1,93 @@
+/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilo do título principal */
+h1 {
+    font-size: 2em;
+}
+
+/* Estilo da seção de contato */
+.contato-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo dos campos de formulário */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+}
+
+form button {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo dos botões de contato */
+.contato-botoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contato-botoes button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    form input,
+    form textarea {
+        width: 100%;
+    }
+}

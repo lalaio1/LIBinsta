@@ -1,0 +1,80 @@
+{
+    "bruteforce1": {
+        "description": "Executar script de bruteforce para LIBinsta."
+    },
+    "clear": {
+        "aliases": ["cls", "limpar"],
+        "description": "Limpar a tela."
+    },
+    "help": {
+        "description": "Mostrar a lista de comandos disponíveis."
+    },
+    "banner": {
+        "description": "Exibir banner principal."
+    },
+    "banner2": {
+        "description": "Exibir outro banner."
+    },
+    "la": {
+        "aliases": ["listar", "ls"],
+        "description": "Executar script de comando 'la'."
+    },
+    "add agent": {
+        "aliases": ["add agents"],
+        "description": "Adicionar um novo User-Agent."
+    },
+    "clear agent": {
+        "description": "Limpar a lista de User-Agents."
+    },
+    "list agent": {
+        "description": "Listar os User-Agents."
+    },
+    "history": {
+        "description": "Mostrar o histórico de comandos."
+    },
+    "collect agent": {
+        "description": "Coletar informações do agente."
+    },
+    "list wordlists": {
+        "description": "Listar wordlists disponíveis."
+    },
+    "download wordlists": {
+        "description": "Baixar wordlists."
+    },
+    "cat wordlists": {
+        "description": "Exibir conteúdo de wordlists."
+    },
+    "secret spamer -menu": {
+        "description": "Executar o menu do Secret Spammer."
+    },
+    "scret.me spamer": {
+        "description": "Executar o script scret.me Spammer."
+    },
+    "ng.link spammer": {
+        "description": "Executar o script ng.link Spammer."
+    },
+    "info agents": {
+        "description": "Exibir informações dos agentes."
+    },
+    "support": {
+        "description": "Acessar suporte online."
+    },
+    "clear all wordlists": {
+        "description": "Limpar todas as wordlists."
+    },
+      "clear acont": {
+        "description": "Limpar contas."
+      },
+      "derrubar": {
+        "description": "Executar o script 'derrubar'."
+      },
+      "bruteforce2": {
+        "description": "Executar o script bruteforce2."
+      },
+      "add acont": {
+        "description": "Adicionar uma conta."
+      },
+      "clear all agent": {
+        "description": "Limpar todos os User-Agents."
+      }
+}
